@@ -2,7 +2,14 @@
 @import "./base/variables";
 @import "./base/reset";
 @import "./components/common/header";
+@import "./components/common/menu";
+@import "./components/entryPanel";
+@import "./components/parts/buttons";
 
 p {
   color: $color-main-text;
+}
+
+a {  //書籍に記載無し
+  text-decoration: none;
 }
