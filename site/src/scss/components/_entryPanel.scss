@@ -14,24 +14,26 @@
     margin-right: 20px;
   }
   &__thumb {
-    position: relative;
+    // position: relative;
+    width: 100%;
+    height: auto;
     flex: 1 1 45%;
-    padding-top: 40.5%;
+    // padding-top: 40.5%;
     overflow: hidden;
     //margin-right: $space-unit;
   }
-  &__img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: auto;
-    height: auto;
-    max-width: 150%;
-    max-height: 150%;
-    min-width: 100%;
-    min-height: 100%;
-  }
+  // &__img {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   width: auto;
+  //   height: auto;
+  //   max-width: 150%;
+  //   max-height: 150%;
+  //   min-width: 100%;
+  //   min-height: 100%;
+  // }
   &__head {
     font-weight: bold;
     font-size: 16px;
