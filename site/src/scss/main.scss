@@ -10,7 +10,9 @@
 @import "./components/common/section";
 @import "./components/parts/labels";
 @import "./components/overPanel";
-@import "./components/_iconPanel";
+@import "./components/iconPanel";
+@import "./components/newsList";
+@import "./components/common/footer";
 
 p {
   color: $color-main-text;
