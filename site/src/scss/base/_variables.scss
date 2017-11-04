@@ -10,6 +10,11 @@ $column-space: $space-unit*2;
 $color-black: #252525;
 $color-main-text: #474747;
 $color-white: #fff;
+$font-sub: 'Lato';
+
+//break points
+$sp-max-width: 640px;
+$sp-min-width: 641px;
 
 //paths
 $image-path: "../images/";

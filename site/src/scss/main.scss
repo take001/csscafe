@@ -1,4 +1,6 @@
 @charset 'utf-8';
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import "./base/mixins";
 @import "./base/variables";
 @import "./base/reset";
 @import "./components/common/header";
@@ -13,6 +15,9 @@
 @import "./components/iconPanel";
 @import "./components/newsList";
 @import "./components/common/footer";
+@import "./base/lib/fa/font-awesome";
+@import "./components/common/sns";
+@import "./utils/arrangements";
 
 p {
   color: $color-main-text;

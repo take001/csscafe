@@ -2,6 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  &__icon {
+    margin-bottom: $space-unit;
+    padding: $sp-space-unit;
+    font-size: 26px;
+    color: $color-link;
+  }
   &__head {
     padding: $space-unit;
     font-size: 18px;

@@ -9,6 +9,8 @@
   font-size: 22px;
   line-height: 1;
 
+  @include menu-font;
+
   &::before,
   &::after {
   content: '';
@@ -23,4 +25,14 @@
   &::after {
       margin-left: 22px;
   }
+}
+
+.logo {
+    display: inline-block;
+    padding: 10px 0;
+    color: $color-main-text;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 26px;
+    @include menu-font;
 }
