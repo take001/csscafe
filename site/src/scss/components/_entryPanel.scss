@@ -39,7 +39,7 @@
     font-size: 16px;
   }
   &__body {
-    margin-top: 10px;
+    margin-top: $space-unit/2;
     font-size: 14px;
     @include mq-sp {
       font-size: 12px;

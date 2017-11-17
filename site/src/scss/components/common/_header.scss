@@ -14,4 +14,14 @@
   &__body {
     flex: 3 1 auto;
   }
+  &__button {
+    @include mq-pc{
+      display: none;
+    }
+    @include mq-sp{
+      display: block;
+      color: $color-main-text;
+      font-size: 22px;
+    }
+  }
 }

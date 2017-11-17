@@ -28,5 +28,8 @@
     &__body {
       margin: 16px auto;
       color: $color-white;
+      @include mq-sp {
+          display: none;
+      }
     }
 }

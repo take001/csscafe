@@ -9,10 +9,12 @@
   }
 }
 .l-halfTile {
-  display: flex;
   flex: 1 1 50%;
   margin: 0;
   padding: 0;
+  @include mq-sp {
+      flex-basis: 100%
+  }
 }
 .l-row {
   display: flex;
@@ -28,7 +30,6 @@
     margin-right: 0;
   }
   @include mq-sp {
-    display: block;
     flex: 1 1 100%;
     max-width: none;
     margin-right: 0;
@@ -40,6 +41,11 @@
   margin-right: $column-space;
   &:nth-child(4n) {
     margin-right: 0;
+  }
+  @include mq-sp {
+    flex: 1 1 100%;
+    max-width: none;
+    margin: 0;
   }
 }
 .l-fitImg {
